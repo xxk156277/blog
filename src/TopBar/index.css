@@ -1,0 +1,62 @@
+.top-bar{
+    width: 100%;
+    height: 56px;
+    background-color: white;
+    color:#666;
+    font-family: 'Josefin Sans',sans-serif;
+    /* 定位 */
+    position:sticky;
+    top:0;
+    z-index: 99;
+    /* 布局 */
+    display: flex
+}
+.top-bar-left, .top-bar-right{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-left{
+    line-height: 58px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.top-bar-middle{
+    flex: 6;
+}
+.top-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+.top-list-item{
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 58px
+}
+
+.top-right{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right>i{
+    color: #666
+}
+
+.head{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-left: 20px
+}
+
