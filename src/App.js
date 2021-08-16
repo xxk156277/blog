@@ -1,11 +1,12 @@
-import TopBar from './TopBar/index'
+import TopBar from './components/TopBar/index'
 import HomePage from './page/HomePage/index'
-
 function App() {
   return (
     <div className="App">
-      <TopBar />
-      <HomePage/>
+     
+        <TopBar></TopBar>
+        <HomePage></HomePage>
+      
     </div>
   );
 }

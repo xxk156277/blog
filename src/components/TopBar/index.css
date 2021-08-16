@@ -1,16 +1,31 @@
 .top-bar{
     width: 100%;
     height: 56px;
-    background-color: white;
-    color:#666;
+    background-color: transparent;
+    color:white;
     font-family: 'Josefin Sans',sans-serif;
+    transition: all 1s;
     /* 定位 */
     position:sticky;
     top:0;
     z-index: 99;
-    /* 布局 */
+}
+
+.top-bar>.scroll{
     display: flex
 }
+
+.top{
+    transition: all 1s;
+    background-color: white;
+    color:#666
+}
+
+/* .top-bar .top{
+    color:white;
+    background-color: transparent;
+} */
+
 .top-bar-left, .top-bar-right{
     flex: 3;
     display: flex;
@@ -46,10 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
+    margin-left: 100px
 }
-
 .top-right>i{
-    color: #666
+    margin:0 10px;
 }
 
 .head{

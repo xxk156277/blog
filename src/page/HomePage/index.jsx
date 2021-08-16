@@ -7,7 +7,7 @@ import Content from './Content/Content'
 class HomePage extends Component {
     render() {
         return (
-            <div class="home-page">
+            <div className="home-page">
                 <Header />
                 <Content /> 
             </div>
