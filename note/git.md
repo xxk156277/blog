@@ -344,7 +344,7 @@ git branch --merged   git branch --no-merged
 
 ### 5 远程分支
 
-### git修改存储----git stash
+## git修改存储----git stash
 
 https://www.cnblogs.com/zndxall/archive/2018/09/04/9586088.html
 
